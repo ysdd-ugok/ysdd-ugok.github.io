@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-image: url(../image/paper.jpg);
+  background-size: 200px;
+  background-color: aliceblue;
+  margin-left: 10px;
+  text-align: center;
+}
+
+main {
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  /* float: right; */
+}
+
+h2 {
+}
+
+div {
+  color: #1e366a;
+  border-top: solid #2d4b86 2px; /*上のボーダー*/
+  border-bottom: solid #2d4b86 2px; /*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+}
+
+.menntaiko {
+  display: flex;
+  width: 500px;
+}
+
+.mentaiko2 {
+  width: calc(100% / 4);
+  padding: 20px 10px;
+  text-align: center;
+}
+
+footer {
+  clear: both;
+
+  background-color: skyblue;
+}
