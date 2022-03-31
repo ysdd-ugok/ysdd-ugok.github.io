@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../image/paper.jpg);
+  background-size: 300px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h1 {
+  background-color: rgba(210, 219, 250, 0.582);
+  padding-left: 10px;
+  color: #4868ad;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img {
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+section ul {
+  margin-top: 350px;
+  margin-right: 50px;
+  float: right;
+  color: #1e366a;
+  border-top: solid #2d4b86 2px; /*上のボーダー*/
+  border-bottom: solid #2d4b86 2px; /*下のボーダー*/
+  padding: 0.5em 0 0.5em 1.5em;
+  list-style: none;
+}
+
+li.main {
+  font-weight: bold;
+  font-size: large;
+}
+
+.btn-square-emboss-top {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8; /*ボタン色*/
+  color: #4868ad;
+  box-shadow: 0px 2px 2px #0000004a;
+  border-bottom: solid 3px #627295;
+  border-radius: 3px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff80;
+}
+
+.btn-square-emboss-myprofile {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #db6391; /*ボタン色*/
+  color: #a74c6f;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #a74c6f;
+  border-radius: 3px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff80;
+}
+
+.btn-square-emboss-favorite {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8; /*ボタン色*/
+  color: #4868ad;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+  border-bottom: solid 3px #627295;
+  border-radius: 3px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #ffffff80;
+}
+
+nav {
+  float: right;
+  font-size: large;
+  padding-right: 10px;
+}
+
+footer {
+  float: right;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(210, 219, 250, 0.582);
+  padding: auto;
+  width: 1000px;
+}
