@@ -4,10 +4,11 @@ body {
 }
 
 h1 {
-  background-image: url(../image/paper.jpg);
+  /* background-image: url(../image/paper.jpg); */
   background-size: 200px;
-  margin-left: 10px;
-  text-align: center;
+  margin-left: 20px;
+  text-align: left;
+  color: #2d4b86;
 }
 section ul {
   color: #1e366a;
@@ -35,7 +36,7 @@ li.name {
 
 header nav {
   float: right;
-  font-size: large;
+  font-size: small;
   padding-right: 10px;
 }
 
@@ -79,7 +80,7 @@ header nav {
 }
 
 .btn-square-emboss-more {
-  float: right;
+  float: left;
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
