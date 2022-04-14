@@ -1,52 +1,75 @@
 * {
   margin: 0;
   padding: 0;
+  min-width: auto;
 }
 
 body {
-  background-image: url(../image/paper.jpg);
-  background-size: 300px;
-  width: 1000px;
   margin: 0 auto;
 }
 
 h1 {
-  /* background-color: rgba(210, 219, 250, 0.582); */
-  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  width: 80px;
   color: #4868ad;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 4px;
+  border-bottom: solid #4868ad 4px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
 }
 
-img {
-  padding-left: 100px;
-  padding-top: 200px;
+.work01 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 90px;
+  text-align: center;
+  width: 50%;
+  height: 40%;
+  max-width: 500px;
+  background-color: #f1ece6;
 }
 
-section ul {
-  margin-top: 350px;
-  margin-right: 50px;
-  float: right;
-  color: #1e366a;
-  border-top: solid #2d4b86 2px; /*上のボーダー*/
-  border-bottom: solid #2d4b86 2px; /*下のボーダー*/
-  padding: 0.5em 0 0.5em 1.5em;
+ul.main {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  color: #4868ad;
+  padding: 0.5em 1.5em 0.5em 1.5em;
   list-style: none;
 }
 
-li.main {
-  font-weight: bold;
-  font-size: large;
+.imgabout {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 40px;
+  max-width: 1000px;
+}
+
+.twittericon {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  max-width: 500px;
 }
 
 .btn-square-emboss-top {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  background: #668ad8; /*ボタン色*/
-  color: #4868ad;
+  background: #f1ece6; /*ボタン色*/
+  color: #a74c6f;
   box-shadow: 0px 2px 2px #0000004a;
-  border-bottom: solid 3px #627295;
+  border-bottom: solid 3px #a74c6f;
   border-radius: 3px;
   font-weight: bold;
   text-shadow: 1px 1px 1px #ffffff80;
@@ -56,10 +79,10 @@ li.main {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  background: #db6391; /*ボタン色*/
-  color: #a74c6f;
+  background: #f1ece6; /*ボタン色*/
+  color: #4868ad;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
-  border-bottom: solid 3px #a74c6f;
+  border-bottom: solid 3px #4868ad;
   border-radius: 3px;
   font-weight: bold;
   text-shadow: 1px 1px 1px #ffffff80;
@@ -69,7 +92,7 @@ li.main {
   display: inline-block;
   padding: 0.5em 1em;
   text-decoration: none;
-  background: #668ad8; /*ボタン色*/
+  background: #f1ece6; /*ボタン色*/
   color: #4868ad;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
   border-bottom: solid 3px #627295;
@@ -82,13 +105,16 @@ nav {
   float: right;
   font-size: small;
   padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 footer {
-  float: right;
-  position: absolute;
+  /* float: right;
+  position: absolute; */
   bottom: 0;
-  background-color: rgba(210, 219, 250, 0.582);
+  background-color: #f1ece6;
   padding: auto;
-  width: 1000px;
+  margin-top: 50px;
+  padding: 20px;
 }
